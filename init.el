@@ -10,5 +10,6 @@
 (add-to-list 'load-path (expand-file-name "parts" user-emacs-directory))
 
 (require 'custom-prt)
+(require 'evil-prt)
 
 (provide 'init)
