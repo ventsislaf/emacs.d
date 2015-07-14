@@ -16,4 +16,11 @@
 ;; Use the custom linum-format to add additional space after line number.
 (setq linum-format 'linum-format-func)
 
+;; Show column number in the status bar
+(column-number-mode t)
+
+;; Highlight cursor line
+(global-hl-line-mode t)
+(set-face-background hl-line-face "gray10")
+
 (provide 'display-prt)
