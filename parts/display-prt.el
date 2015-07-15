@@ -23,4 +23,9 @@
 (global-hl-line-mode t)
 (set-face-background hl-line-face "gray10")
 
+;; Highlight long lines, trailing whitespace, tab characters
+(setq whitespace-line-column 80) ; Limit line length to 80 characters
+(setq whitespace-style '(face lines-tail trailing tabs tab-mark))
+(global-whitespace-mode t)
+
 (provide 'display-prt)
