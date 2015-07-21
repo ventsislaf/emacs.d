@@ -7,4 +7,6 @@
 (setq make-backup-files nil) ; Don't create backup files
 (setq auto-save-default nil) ; Don't autosave
 
+(setq ring-bell-function 'ignore) ; No ring bell when end of buffer is reached
+
 (provide 'system-prt)
