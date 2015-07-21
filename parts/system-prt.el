@@ -9,4 +9,6 @@
 
 (setq ring-bell-function 'ignore) ; No ring bell when end of buffer is reached
 
+(setq-default indent-tabs-mode nil) ; Don't use tabs for indentation
+
 (provide 'system-prt)
