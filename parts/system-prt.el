@@ -11,4 +11,6 @@
 
 (setq-default indent-tabs-mode nil) ; Don't use tabs for indentation
 
+(fset 'yes-or-no-p 'y-or-n-p) ; Enable y/n answers
+
 (provide 'system-prt)
