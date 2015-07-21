@@ -13,5 +13,6 @@
 (require 'completion-prt)
 (require 'display-prt)
 (require 'evil-prt)
+(require 'system-prt)
 
 (provide 'init)
